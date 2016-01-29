@@ -1,0 +1,47 @@
+* xcode
+** Navigation
+*** View
+    * S-ret: Show standard editor
+    * S-M-ret: Show assistant editor
+*** Utilities
+    * S-M-0: Toggle utilities
+
+    * S-M-1: Show the File inspector
+    * S-M-2: Show Quick Help inspector
+    * S-M-3: Show Identity inspector
+    * S-M-4: Show Attributes inspector
+    * S-M-5: Show Size inspector
+    * S-M-6: Show Connections inspector      
+      
+    * S-M-C-1: Show File Template Library
+    * S-M-C-2: Show Code Snippet Library
+    * S-M-C-3: Show Object Library
+    * S-M-C-4: Show Media Library
+*** Navigator
+    * S-0: Toggle navigator
+
+    * S-1: Show the Project navigator
+    * S-2: Show the Symbol navigator
+    * S-3: Show the Find navigator
+    * S-4: Show the Issue navigator
+    * S-5: Show the Test navigator
+    * S-6: Show the Debug navigator
+    * S-7: Show the Breakpoint navigator
+    * S-8: Show the Report navigator
+*** Product
+    * S-r: Run
+    * S-k: Open keyboard
+    * S-larrow: Rotate
+    * S-rarrow: Rotate
+*** Editor
+    * C-6: Functions menu
+* Swift
+** Notes
+   * AppDelegate.swift
+     Two main purposes:
+     * entry point to app and run loop
+     * defines AppDelegate class - responsible for creating window where app's content is drawn
+** Open questions
+   * @-syntax for attributes?
+   * prefix-dot syntax? e.g. .PhotoLibrary
+     Answer: abbreviated enumeration form - can be used any time the enumeration is known
